@@ -1,16 +1,14 @@
 # Deep Learning Challenge 
 
-                ![Alt text](image-2.png)
 
-
-# Background
+## Background
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization
 
-# Analysis Preprocess
+## Analysis Preprocess
 
-## Step 1: Preprocess the Data
+### Step 1: Preprocess the Data
 Using `Pandas` and `scikit-learn’s` `StandardScaler()`, the dataset were preprocessed. This step its a prep for Step 2, where I compiled, trained, and evaluated the neural network model.
 
 I started by uploading the starter file to Google Colab, then using the information provided in the Challenge files, follow the instructions to complete the preprocessing steps.
@@ -33,7 +31,7 @@ I started by uploading the starter file to Google Colab, then using the informat
 
 8. By creating a `StandardScaler` instance the datasets Scale the training and testing features datasets , fitting it to the training data, then using the `transform` function.
 
-## Step 2: Compile, Train, and Evaluate the Model
+### Step 2: Compile, Train, and Evaluate the Model
 
 Using TensorFlow, a neural network was designed, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. It needs to be consider how many inputs there are before determining the number of neurons and layers in the model. Once that step is completed, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy following the steps below.
 
@@ -57,7 +55,7 @@ Using TensorFlow, a neural network was designed, or deep learning model, to crea
 
 10. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity.h5`.
 
-## Step 3: Optimize the Model
+### Step 3: Optimize the Model
 
 Using TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
 
@@ -83,7 +81,7 @@ Note: If you make at least three attempts at optimizing your model, you will not
 
 5. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity_Optimization.h5`.
 
-## Step 4: Write a Report on the Neural Network Model
+### Step 4: Write a Report on the Neural Network Model
 A report is attached on the performance of the deep learning model created for Alphabet Soup.
 
 The report contains the following:
