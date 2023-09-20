@@ -1,6 +1,6 @@
 # Deep Learning Challenge 
 
-                    ![image](https://github.com/AnaTipps/deep-learning-challenge/assets/131827518/9996f0a6-473f-498d-abfd-e0d173641f08)
+                ![Alt text](image-2.png)
 
 
 # Background
